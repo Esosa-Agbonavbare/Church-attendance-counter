@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+    height: 100%;
+    background: url(beautiful-church-background-1.jpg) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: auto;
+    padding: 0px 0px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.container button {
+    display: block;
+    margin: 16px auto;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.disp {
+    font-size: 60px;
+    margin: 32px auto;
+}
+.addition, .subtraction {background-color: rgb(1, 99, 99);}
+.commit {background-color: red;}
+.total {background-color: rgb(71, 48, 216);}
+#output {
+    font-weight: 800;
+    font-size: 20px;
+}
